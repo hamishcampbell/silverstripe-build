@@ -4,3 +4,6 @@
 [submodule "cms"]
 	path = cms
 	url = https://github.com/silverstripe/silverstripe-cms.git
+[submodule "themes"]
+	path = themes
+	url = https://github.com/silverstripe-themes/silverstripe-blackcandy.git
