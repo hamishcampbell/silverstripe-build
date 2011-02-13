@@ -13,7 +13,7 @@ in this project. To install SilverStripe:
   3. Edit your `mysite/_config.php` file with `$database` and other
 relevant settings.
   4. If you have checked out the project with Git you will then need to run:
-         git submodules update --init
+         git submodule update --init
 
 ## Usage Notes
 
