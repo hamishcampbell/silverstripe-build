@@ -22,7 +22,7 @@ repositories for Sapphie, CMS and the BlackCandy theme. Modules can
 be updated to their latest revisions with Git with the following
 process:
 
-    cd sapphrie
+    cd sapphire
     git checkout master
     cd ..
     git commit -a -m "Updated sapphire module version"
