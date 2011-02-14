@@ -3,6 +3,15 @@
 This is a standard build of the SilverStripe web development
 framework and Content Management System.
 
+## Secure Files Build
+
+This build is for testing and demonstration of the [Secure Files](https://github.com/hamishcampbell/silverstripe-securefiles)
+module. It is currently based of the 2.4 branch of the SilverStripe
+framework and CMS.
+
+Secure Files adds file security controls to your websites `assets/` folder. See
+the Secure Files documentation for more information.
+
 ## Installation
 
 Note that the SilverStripe installer has not been included
