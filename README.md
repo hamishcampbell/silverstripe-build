@@ -13,7 +13,7 @@ in this project. To install SilverStripe:
   3. Edit your `mysite/_config.php` file with `$database` and other
 relevant settings.
   4. If you have checked out the project with Git you will then need to run:
-         git submodules update --init
+         git submodule update --init
 
 ## Usage Notes
 
@@ -22,7 +22,7 @@ repositories for Sapphie, CMS and the BlackCandy theme. Modules can
 be updated to their latest revisions with Git with the following
 process:
 
-    cd sapphrie
+    cd sapphire
     git checkout master
     cd ..
     git commit -a -m "Updated sapphire module version"
