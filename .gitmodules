@@ -7,3 +7,6 @@
 [submodule "themes"]
 	path = themes
 	url = https://github.com/silverstripe-themes/silverstripe-blackcandy.git
+[submodule "pastie"]
+	path = pastie
+	url = https://hamishcampbell@github.com/hamishcampbell/silverstripe-pastie.git
