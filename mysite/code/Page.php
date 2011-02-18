@@ -38,4 +38,12 @@ class Page_Controller extends ContentController {
 		Requirements::themedCSS('typography'); 
 		Requirements::themedCSS('form'); 
 	}
+	
+	public function index() {
+		$content = " 1.  ABC\n 2.  123\n\n`\$abc = '1';`\n";
+		$parser = new MarkdownTextParser($content);
+		$content = $parser->parse();
+		
+		return $this->customise(array('Content' => $content))->renderWith(array('Page'));
+	}
 }
